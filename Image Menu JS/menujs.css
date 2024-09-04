@@ -1,0 +1,72 @@
+.last-image-idenroad {
+    cursor: pointer;
+}
+.last-image2-idenroad {
+    cursor: pointer;
+}
+.last-image3-idenroad {
+    cursor: pointer;
+}
+.hidden-section-idenroad {
+    display: none;
+    opacity: 0;
+}
+
+.hidden-section-idenroad.visible {
+    display: block;
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+opacity: 1;
+}
+.hidden-section2-idenroad {
+    display: none;
+    opacity: 0;
+}
+
+.hidden-section2-idenroad.visible {
+    display: block;
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+opacity: 1;
+}
+.hidden-section3-idenroad {
+    display: none;
+    opacity: 0;
+}
+
+.hidden-section3-idenroad.visible {
+    display: block;
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+opacity: 1;
+}
