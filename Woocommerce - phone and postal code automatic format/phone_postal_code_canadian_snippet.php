@@ -1,3 +1,4 @@
+<php>
 add_action('wp_footer', 'custom_format_phone_and_postcode');
 function custom_format_phone_and_postcode() {
     ?>
