@@ -1,7 +1,6 @@
 <?php
 add_action('wp_footer', 'custom_format_phone_and_postcode');
 function custom_format_phone_and_postcode() {
-    ?>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             // Fonction pour formater le numéro de téléphone
@@ -36,3 +35,4 @@ function custom_format_phone_and_postcode() {
         });
     </script>
 }
+ ?>
